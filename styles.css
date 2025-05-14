@@ -1,11 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/*css of the whole page*/
 body{
-    font-family: 'Poppins', sans-serif;
-    background-color: #f0f0f0;
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    color: #333;
 
 }
 header{
@@ -14,7 +12,51 @@ header{
     padding: 10px 0;
     text-align: center;
 }
+
+
+/*this section handover to chaitanya*/
 /*css of selection process*/
+
+
+
+.selection-process {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.selection-process h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.selection-process .description {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  color: #555;
+}
+
+/* Grid layout */
+.criteria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.criteria h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.criteria p {
+  font-size: 1rem;
+  color: #666;
+}
+
 
  /*Featured section css taken by devesh */
   
@@ -96,6 +138,11 @@ body {
 }
 
 
+<<<<<<< HEAD
 
 
   
+=======
+ 
+ /*Featured section css taken by devesh */
+>>>>>>> 8a8936a2724fe7e4fdd503d72ae12e2271a3ff47
