@@ -82,7 +82,7 @@ body {
 
 .agency-list li {
   background-color: #fff;
-  flex: 1 1 calc(33.333% - 20px); /* 3 cards per row with spacing */
+  flex: 1 1 calc(33.333% - 20px);  
   margin: 10px;
   padding: 20px;
   border-radius: 12px;
@@ -136,12 +136,3 @@ body {
   }
 }
 
-
-<<<<<<< HEAD
-
-
-  
-=======
- 
- /*Featured section css taken by devesh */
->>>>>>> 8a8936a2724fe7e4fdd503d72ae12e2271a3ff47
